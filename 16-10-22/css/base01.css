@@ -1,0 +1,42 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ul li, ol li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+a:active {
+    color: purple;
+}
+
+img {
+    vertical-align: top;
+}
+
+b, strong, h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+}
+
+i, em {
+    font-style: normal;
+}
+
+.clearfix:after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+.clearfix {
+    zoom: 1;
+}

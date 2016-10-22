@@ -1,0 +1,273 @@
+.header .top {
+    width: 100%;
+    height: 100%;
+    background-color: #fafafa;
+}
+
+.header .top-nav {
+    width: 930px;
+    height: 37px;
+    margin: 0 auto;
+    padding-top: 11px;
+}
+
+.header .top ul {
+    float: left;
+}
+
+.header .top-nav li {
+    float: left;
+    font-size: 12px;
+}
+
+.header .top-nav li a {
+    border-right: 1px solid #bbbbbb;
+    padding-right: 15px;
+    margin-right: 15px;
+}
+
+.header .top .top-right {
+    float: right;
+}
+
+.header .top-right .login {
+    float: left;
+}
+
+.header .top-right .register {
+    float: left;
+}
+
+.header .top-right span {
+    border-left: 1px solid #bbbbbb;
+    float: left;
+    padding: 9px 8px;
+    margin-left: 16px;
+}
+
+.header .middle {
+    width: 930px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.header .middle h1 {
+    width: 70px;
+    float: left;
+}
+
+.header .middle .time span {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url(../img/time.png);
+    vertical-align: middle;
+}
+
+.header .m-right {
+    width: 860px;
+    position: relative;
+    float: left;
+}
+
+.header .input {
+    position: absolute;
+    top: 30px;
+    right: 0;
+}
+
+.header .time {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 12px;
+    color: #ccc;
+}
+
+.header .middle .text {
+    width: 400px;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-right: none;
+    vertical-align: middle;
+    padding-left: 10px;
+}
+
+.header .middle .sub {
+    width: 30px;
+    height: 40px;
+    background: url("../img/fdj.png") no-repeat center center;
+    vertical-align: middle;
+    border: 1px solid #ccc;
+    cursor: pointer;;
+}
+
+.header .middle .button {
+    width: 100px;
+    height: 40px;
+    background: url("../img/car1.png") no-repeat 18px center yellow;
+    border: none;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.header .middle .xiao {
+    position: absolute;
+    font-size: 12px;
+    top: 43px;
+    right: 147px;
+}
+
+.header .middle .xiao span {
+    background: #eee;
+    margin-left: 10px;
+}
+
+.header .bottom {
+    width: 930px;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+.header .bottom .nav-l {
+    width: 248px;
+    height: 50px;
+    color: #ffffff;
+    background: #ff4a00;
+    line-height: 50px;
+    padding-left: 22px;
+    font-weight: bold;
+    float: left;
+}
+
+.header .bottom .nav-r {
+    color: #ffffff;
+    background: #404144;
+}
+
+.header .bottom .nav-r li {
+    float: left;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 10px;
+}
+
+.header .cont-l ul .l1 {
+    width: 248px;
+    position: relative;
+    height: 74px;
+    z-index: 10000;
+}
+
+.header .cont-l ul .kinds {
+    width: 248px;
+    position: relative;
+    border: 1px solid #cccccc;
+    font-size: 14px;
+    height: 73px;
+    padding: 19px 22px;
+    border-top: none;
+}
+
+.header .cont-l li .category {
+    position: relative;
+}
+
+.header .cont-l li .category a {
+    color: #ff4a00;
+}
+
+.header .cont-l .l1 .plist {
+    color: #6d6d6d;
+    position: relative;
+    top: 6px;
+}
+
+.header .cont-l .windows {
+    width: 249px;
+    border: 1px solid #cccccc;
+    position: absolute;
+    left: 247px;
+    top: 0;
+    display: none;
+    background: #fff;
+}
+
+.header .cont-l .windows .item {
+    padding: 10px 0;
+}
+
+.header .cont-l .windows .item div {
+    height: 61px;
+    line-height: 61px;
+    font-size: 14px;
+    color: #6d6d6d;
+}
+
+.header .cont-l .windows .item img {
+    margin: 20px;
+}
+
+.header .cont-l ul .l1:hover .kinds {
+    background-color: #fafafa;
+    border-left: 3px solid #ff4a00;
+    padding-left: 20px;
+}
+
+.header .cont-l ul .l1:hover .windows {
+    display: block;
+}
+
+.header .cont-l .windows .item div:hover {
+    background-color: #fafafa;
+}
+
+.header .cont-l .windows .bottom {
+    width: 247px;
+    padding: 22px 30px;
+    background: #fafafa;
+}
+
+.header .cont-l .windows .bottom h5 {
+    font-size: 14px;
+    margin-bottom: 12px;
+}
+
+.header .cont-l .windows .bottom li {
+    color: #6d6d6d;
+    font-size: 14px;
+    list-style-type: disc;
+    height: 18px;
+    line-height: 18px;
+    margin-left: 18px;
+}
+
+.header .cont-l {
+    float: left;
+}
+
+.header .cont-r {
+    float: left;
+}
+
+.header .cont-r li {
+    float: left;
+    position: relative;
+}
+
+.header .cont-r li .desc {
+    text-align: center;
+    position: absolute;
+    width: 227px;
+    top: 20px;
+    left: 0;
+}
+
+.header .cont-r li h3 {
+    font-weight: bold;
+}
+
+.header .cont-r li h6 {
+    margin-top: 5px;
+    color: #999;
+}

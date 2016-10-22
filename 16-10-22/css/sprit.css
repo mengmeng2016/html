@@ -1,0 +1,63 @@
+.box {
+    width: 320px;
+    height: 63px;
+    padding: 24px 20px 12px 28px;
+    border-bottom: 7px solid #337ccb;
+    margin: 0 auto;
+}
+
+ul li {
+    position: relative;
+    float: left;
+    height: 22px;
+}
+
+ul li .border {
+    border-right: 1px solid #ccc;
+    height: 8px;
+    position: absolute;
+    top: 7px;
+    right:0;
+}
+ul .l1 .img {
+    width: 34px;
+    height: 18px;
+    margin-right: 20px;
+    background: url("../img/9-5素材.png") no-repeat -669px -39px;
+}
+
+ul .l2 .img {
+    width: 15px;
+    height: 21px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background: url("../img/9-5素材.png") no-repeat -1025px -38px;
+}
+
+ul .l3 .img {
+    width: 22px;
+    height: 16px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background: url("../img/9-5素材.png") no-repeat -1069px -38px;
+}
+
+ul .l4 .img {
+    width: 17px;
+    height: 23px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background: url("../img/9-5素材.png") no-repeat -951px -37px;
+}
+
+ul .l5 .img {
+    width: 24px;
+    height: 19px;
+    margin-left: 20px;
+    background: url("../img/9-5素材.png") no-repeat -1116px -37px;
+}
+
+ul .l5 .border {
+    border-right: 0 none;
+}
+
